@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    font-family: 'Fontdiner Swanky', serif;
+  
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 7%;
+    position: fixed;
+    top: 0; left: 0; right: 0; 
+    z-index: 1000;
+    background: rgba(0,0,0,0.7);
+}
+
+.header .text h2{
+    font-size: 4rem;
+}
+
+.header .nav-bar a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0.2rem;
+    margin: 0 1rem;
+    font-size: 1.4rem;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.header .text{
+    height: 100px;
+}
+
+.header .icon {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    
+}
+
+.header.search-container label{
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.search-container{
+    position: absolute;
+    top: 70%;
+    right: 8.5%;
+    background: #fff;
+    transform: scaleY(0);
+    transform-origin: top(0);
+}
+
+
+
+
+
+
+
+
+
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(assets/coffee\ bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*
+
+.bg-container{
+    width: 100%;
+    height: 100vh;
+   
+
+}*/
+
+
+.bg-container h2{
+    color: #fff;
+    position: absolute;
+    top: 44%;
+    left: 8%;
+    font-size: 48px ;
+  
+}
+
+.bg-container small{
+    color: #fff;
+    position: absolute;
+    top: 67%;
+    left: 8%;
+     font-family: 'Lumanosimo', cursive;;
+}
+
+.bg-container button{
+    position: absolute;
+    top: 78%;
+    left: 18%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: burlywood;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.heading{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.heading span{
+    text-transform: uppercase;
+    color: rgb(249, 177, 81);
+    text-align: center;
+}
+
+.bg-box1{
+    width: 250px;
+    height: 250px;
+    background-image: url(assets/product\ image\ -1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.bg-box2{
+    width: 250px;
+    height: 250px;
+    background-image: url(assets/product\ image-2.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.bg-box3{
+    width: 250px;
+    height: 250px;
+    background-image: url(assets/produt\ image\ 12.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.bg-box4{
+    width: 250px;
+    height: 250px;
+    background-image: url(assets/prduct\ image-4.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.about .image{
+    width: 250px;
+    height: 300px;
+}
+
+.about .image-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    
+}
+
+.about  p{
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.menu{
+    margin-top: 200px;
+}
+
+
+
+.box-container{
+   display: grid;
+   grid-template-columns: repeat(3, 500px);
+   gap: 1rem;
+   margin-top: 100px;
+
+}
+
+.box-container .box{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid white;
+}
+
+.box-container .box .btn{
+    background: rgb(245, 154, 34);
+}
+
+.box-container .box span{
+    text-decoration: line-through;
+}
+
+.box-container .box .btn:hover{
+    background: rgb(215, 147, 58);
+}
+
+.box-container .box:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+.r-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+
+.reviews{
+    width: 40%;
+}
+
+.r-box{
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+footer{
+   
+    background: rgba(173, 167, 167, 0.5);
+    color: #ffffff;
+}
+
+.footer{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.social-icon{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
